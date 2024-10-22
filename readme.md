@@ -11,20 +11,34 @@ Image to Speech Converter :
 
 Project Structure : 
 
+
 image-to-speech/
+
 │
+
 ├── app.py                       # Main Flask app
+
 ├── static/                      # Folder for static files (images, audio)
+
 │   └── uploads/                 # Store uploaded images and audio files
+
 │
+
 ├── templates/                   # HTML templates for the frontend
+
 │   └── index.html               # Main page with upload form
+
 │
+
 ├── utils/                       # Utility functions
+
 │   ├── image_processing.py      # Image-to-text extraction logic
+
 │   └── text_to_speech.py        # Text-to-speech conversion logic
+
 │
 ├── requirements.txt             # Python dependencies
+
 └── README.md                    # Project overview (this file)
 
 
